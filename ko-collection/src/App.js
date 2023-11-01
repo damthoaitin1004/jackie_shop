@@ -1,7 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./component/header/Header";
-import Silde from "./component/silde/Silde";
 import Home from "./component/home/Home";
 import LoginForm from "./component/login/LoginForm";
 import {Route, Routes} from "react-router-dom";
@@ -13,7 +11,6 @@ function App() {
         <>
 
             <Routes>
-                <Route/>
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/login" element={<LoginForm/>}/>
                 <Route path="/detail" element={<ProductDetail/>}/>
