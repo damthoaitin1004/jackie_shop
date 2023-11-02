@@ -2,32 +2,27 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className="header-area header-sticky">
+        <header className="header-area header-sticky shadow">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <nav className="main-nav">
+                        <nav className="main-nav ">
                             {/* ***** Logo Start ***** */}
-                            <a href="index.html" className="logo" style={{ marginTop: "2%", color: "black" }}>
-                               <h2 >KO Collection</h2>
+                            <a href="index.html" className="logo" style={{ marginTop: "3%", color: "black" }}>
+                               <h2 style={{color:"white",fontWeight:"bold"}}>KO Collection</h2>
                             </a>
-                            <ul className="nav">
+                            <ul className="nav text-light">
                                 <li className="scroll-to-section">
                                     <a href="#top" className="active">
                                         Home
                                     </a>
                                 </li>
                                 <li className="scroll-to-section">
-                                    <a href="#men">Men's</a>
+                                    <a href="#men">Sản phẩm mới</a>
                                 </li>
-                                <li className="scroll-to-section">
-                                    <a href="#women">Women's</a>
-                                </li>
-                                <li className="scroll-to-section">
-                                    <a href="#kids">Kid's</a>
-                                </li>
+
                                 <li className="submenu">
-                                    <a href="javascript:;">Pages</a>
+                                    <a href="javascript:;">Sản phẩm</a>
                                     <ul>
                                         <li>
                                             <a href="about.html">About Us</a>
@@ -44,30 +39,15 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li className="submenu">
-                                    <a href="javascript:;">Features</a>
+                                    <a href="javascript:;">Tìm kiếm</a>
                                     <ul>
                                         <li>
                                             <a href="#">Features Page 1</a>
                                         </li>
-                                        <li>
-                                            <a href="#">Features Page 2</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Features Page 3</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                rel="nofollow"
-                                                href="https://templatemo.com/page/4"
-                                                target="_blank"
-                                            >
-                                                Template Page 4
-                                            </a>
-                                        </li>
                                     </ul>
                                 </li>
                                 <li className="scroll-to-section">
-                                    <a href="#explore">Explore</a>
+                                    <a href="#explore">Đăng nhập</a>
                                 </li>
                             </ul>
                             <a className="menu-trigger">

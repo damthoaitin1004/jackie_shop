@@ -8,14 +8,14 @@ const Silde = () => {
                     <div className="col-lg-6">
                         <div className="left-content">
                             <div className="thumb">
-                                <div className="inner-content ">
+                                <div className="inner-content " >
                                     <h4>We Are KO Collection</h4>
                                     <span>Awesome, clean &amp; creative HTML5 Template</span>
                                     <div className="main-border-button">
-                                        <a href="#">Purchase Now!</a>
+                                        <a href="#" >Purchase Now!</a>
                                     </div>
                                 </div>
-                                <img src="http://localhost:63342/templatemo_571_hexashop/assets/images/left-banner-image.jpg" alt="" />
+                                <img style={{height:"600px"}} src="https://kenh14cdn.com/203336854389633024/2023/3/21/photo-9-16793746334661354079248.jpg" alt="" />
                             </div>
                         </div>
                     </div>
@@ -24,10 +24,10 @@ const Silde = () => {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="right-first-image">
-                                        <div className="thumb">
+                                        <div className="thumb ">
                                             <div className="inner-content">
                                             </div>
-                                            <div className="hover-content">
+                                            <div className="hover-content ">
                                                 <div className="inner">
                                                     <h4>Women</h4>
                                                     <p>
